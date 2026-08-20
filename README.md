@@ -2,6 +2,8 @@
 
 **Author:** Makasa Kawimbe
 
+**Notebook:** [Retail Intelligence Platform.ipynb](Programming%20Files/Retail%20Intelligence%20Platform_FINAL.ipynb)
+
 ## Executive Summary
 
 This project builds a Python-based retail intelligence MVP using historical transaction data from H&M (~31.8M transactions, 1.37M customers, 105K products) to answer three linked business questions: who are the retailer's meaningful customer groups, what is the expected category-level demand, and which products should be recommended to each customer? Initial EDA reveals a young-skewing customer base with heavily right-skewed purchase frequency, strong seasonal transaction patterns, and a product catalog dominated by upper-body Ladieswear. A baseline Logistic Regression model successfully classifies high-value customers (top 25% spenders) with strong ROC-AUC performance, with purchase frequency and product diversity as the strongest predictors.
